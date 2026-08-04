@@ -61,6 +61,12 @@
                         </a>
                         {% endif %}
 
+                        {% if site.data.profile.dblp %}
+                        <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.dblp }}">
+                            <i class="fas fa-book"></i>
+                        </a>
+                        {% endif %}
+
                         {% if site.data.profile.wechat_qrcode %}
                         <a class="px-1 no-break" data-toggle="modal" data-target="#modal-wechat">
                             <i class="fab fa-weixin"></i>

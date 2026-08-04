@@ -3,7 +3,7 @@ title:          "MiniRFANN: Range-Filtered Approximate Vector Similarity Search 
 date:           2026-08-01 00:01:00 +0800
 selected:       true
 order:          11
-pub:            "IEEE International Conference on Data Science and Engineering (DSE)"
+pub:            "International Conference on Data Science and Engineering (DSE)"
 pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">CCF-B</span>'
 abstract: >-
