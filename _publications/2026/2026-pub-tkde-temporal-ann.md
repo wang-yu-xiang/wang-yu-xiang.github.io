@@ -16,6 +16,4 @@ authors:
   - Zimu Zhou
   - Zijie Ma
   - Yiman Zhong
-links:
-  Paper: https://ieeexplore.ieee.org
 ---

@@ -1,13 +1,6 @@
 # Yuxiang Wang's Academic Homepage
 
 Personal academic website of Yuxiang Wang, a PhD student at Beihang University.
-
-Built with [academic-homepage](https://github.com/luost26/academic-homepage) template.
-[🌜](https://tmsultan.github.io)
-[🚀](https://zaxguo.github.io)
-[:gemini:](https://hongyang-du.github.io)
-[:star:](https://thuanz123.github.io)
-[🧬](https://gdalba.github.io/)
 [:star:](https://yhhan.com/)
 [🌔](https://chen-huaneng.github.io/academic)
 [:star:](https://jwklee.github.io/)

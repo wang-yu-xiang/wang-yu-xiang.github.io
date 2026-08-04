@@ -16,6 +16,4 @@ authors:
   - Ziyuan He
   - Ruixi Hu
   - Ke Xu
-links:
-  Paper: https://ieeexplore.ieee.org
 ---

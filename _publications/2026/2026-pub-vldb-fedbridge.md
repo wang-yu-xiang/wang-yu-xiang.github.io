@@ -16,6 +16,4 @@ authors:
   - Zhilin Liang
   - Xinyu Zhao
   - Yongxin Tong
-links:
-  Paper: https://www.vldb.org
 ---

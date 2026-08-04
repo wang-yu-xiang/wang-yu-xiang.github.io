@@ -17,5 +17,5 @@ authors:
   - Zimu Zhou
   - Yongxin Tong
 links:
-  Paper: https://ieeexplore.ieee.org
+  Paper: https://doi.org/10.1109/TKDE.2024.3375028
 ---

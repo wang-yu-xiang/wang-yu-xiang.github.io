@@ -18,6 +18,4 @@ authors:
   - Qian Tao
   - Yu Li
   - Yongxin Tong
-links:
-  Paper: https://www.vldb.org
 ---

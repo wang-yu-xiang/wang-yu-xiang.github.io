@@ -16,5 +16,5 @@ authors:
   - Zimu Zhou
   - Yiman Zhong
 links:
-  Paper: https://ieeexplore.ieee.org
+  Paper: https://doi.org/10.1109/ICDE65448.2025.00228
 ---

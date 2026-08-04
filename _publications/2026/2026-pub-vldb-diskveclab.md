@@ -15,8 +15,7 @@ authors:
   - Shuyuan Li
   - Zimu Zhou
   - Ziyuan He
+  - Yu Sun
   - Xianhai Li
   - Yu Li
-links:
-  Paper: https://www.vldb.org
 ---
