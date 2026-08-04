@@ -1,14 +1,11 @@
-primary_name: "Your Name"
+primary_name: "Yuxiang Wang"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Yuxiang Wang"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Beihang University
 
-
-email: "your@email.com"
+email: "yuxiangwang@buaa.edu.cn"
 # cv_link: link-to-your-cv-file
 gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: your_github_id

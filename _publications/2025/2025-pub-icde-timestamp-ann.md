@@ -2,8 +2,10 @@
 title:          "Timestamp Approximate Nearest Neighbor Search over High-Dimensional Vector Data"
 date:           2025-05-15 00:01:00 +0800
 selected:       true
+order:          5
 pub:            "IEEE International Conference on Data Engineering (ICDE)"
 pub_date:       "2025"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper studies timestamp-aware approximate nearest neighbor search over high-dimensional vector data.
 cover:          /assets/images/covers/cover3.jpg

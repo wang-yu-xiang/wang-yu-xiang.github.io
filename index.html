@@ -28,12 +28,28 @@ navbar_title: Home
         {% endif %}
 
         {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+        {% assign pubs = site.publications | sort: "order" %}
         {%
         include widgets/publication_card.html
         publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
+        title='<i class="fas fa-star"></i> Publications'
         %}
+        {% endif %}
+
+        {% if site.data.profile.awards %}
+        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+            <h6 class="border-bottom border-gray p-3 mb-0">
+                <i class="fas fa-trophy"></i> Honors & Awards
+            </h6>
+            <div class="p-3">
+                {% for item in site.data.profile.awards %}
+                <h5 class="mt-0 mb-1 font-weight-normal d-flex">
+                    <span>{{ item.name }}</span>
+                    <span class="ml-auto no-break"><em>{{ item.date }}</em></span>
+                </h5>
+                {% endfor %}
+            </div>
+        </div>
         {% endif %}
     </div>
 </div>
