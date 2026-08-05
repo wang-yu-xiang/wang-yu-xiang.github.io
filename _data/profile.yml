@@ -37,11 +37,15 @@ education:
   position: B.S. in Computer Science
   date: Sep. 2019 - Jul. 2021
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- company: ByteDance (Beijing)
+  dept: Infrastructure Department
+  position: Distributed Vector Database
+  date: 2021.10 - 2022.4
+- company: Alibaba Cloud (Beijing)
+  dept: Open-Source Big Data Platform
+  position: Multimodal Data Lakehouse
+  date: 2025.8 - present
 
 awards:
 - name: Young Science and Technology Talent Cultivation Project (Doctoral Special Program), CAST
