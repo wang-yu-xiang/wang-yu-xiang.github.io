@@ -19,5 +19,6 @@ authors:
 links:
   Paper:
   PDF: /assets/papers/ICDE26-Federated Retrieval over Embedding-Heterogeneous Vector Databases.pdf
+  Slides: /assets/slides/ICDE26-slides.pdf
   Code: https://github.com/BUAA-BDA/FANNS
 ---

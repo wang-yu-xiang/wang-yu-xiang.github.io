@@ -18,5 +18,6 @@ authors:
 links:
   Paper: https://doi.org/10.1109/ICDE65448.2025.00228
   PDF: /assets/papers/ICDE25-Timestamp Approximate Nearest Neighbor Search over High-Dimensional Vector Data.pdf
+  Slides: /assets/slides/ICDE25-slides.pdf
   Code: https://github.com/Roy-buaa/TimestampGraph
 ---
