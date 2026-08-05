@@ -21,5 +21,5 @@ links:
   Paper: https://doi.org/10.1145/3711896.3737218
   PDF: /assets/papers/SIGKDD25-FedMetro Efficient Metro Passenger Flow Prediction via Federated Graph Learning.pdf
   Slides: /assets/slides/SIGKDD25-slides.pdf
-  Code:
+  Code: https://github.com/AlexMufeng/FedMetro
 ---
