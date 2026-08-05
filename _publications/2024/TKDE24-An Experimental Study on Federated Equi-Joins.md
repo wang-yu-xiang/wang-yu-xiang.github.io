@@ -8,7 +8,7 @@ pub_date:       "2024"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper presents a comprehensive experimental study on federated equi-join algorithms.
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Shuyuan Li
   - Yuxiang Zeng

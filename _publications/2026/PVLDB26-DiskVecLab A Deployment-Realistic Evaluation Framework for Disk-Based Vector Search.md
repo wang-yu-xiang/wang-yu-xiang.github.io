@@ -8,7 +8,7 @@ pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper presents DiskVecLab, a deployment-realistic evaluation framework for disk-based vector search systems.
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Yuxiang Wang
   - Yongxin Tong

@@ -23,19 +23,17 @@ short_bio: >-
     I'm Yuxiang Wang, a PhD student at Beihang University. My research interests include vector databases, federated learning, and data management.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/mugman.png
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
 - name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
     Department of Electrical Engineering and Computer Science <br/>
     Ph.D. Student
   date: Sep. 2024 - present
 - name: Peking University
-  logo: /assets/images/badges/PKU_red.png
   position: B.S. in Computer Science
   date: Sep. 2019 - Jul. 2021
 

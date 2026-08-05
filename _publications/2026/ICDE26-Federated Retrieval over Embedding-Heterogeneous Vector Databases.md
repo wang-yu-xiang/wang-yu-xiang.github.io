@@ -8,7 +8,7 @@ pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper studies federated retrieval techniques over embedding-heterogeneous vector databases.
-cover:          /assets/images/covers/cover4.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Yuxiang Wang
   - Yongxin Tong

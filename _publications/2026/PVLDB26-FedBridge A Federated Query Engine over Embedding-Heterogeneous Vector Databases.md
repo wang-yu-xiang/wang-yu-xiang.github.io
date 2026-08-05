@@ -8,7 +8,7 @@ pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span> <span class="badge badge-pill badge-publication badge-success">Demo</span>'
 abstract: >-
   This paper proposes FedBridge, a federated query engine that supports querying over embedding-heterogeneous vector databases.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Yuxiang Wang
   - Ruixi Hu
@@ -18,6 +18,6 @@ authors:
   - Yongxin Tong
 links:
   Paper:
-  PDF:
+  PDF: /assets/papers/PVLDB26-FedBridge A Federated Query Engine over Embedding-Heterogeneous Vector Databases.pdf
   Code: https://github.com/Roy-buaa/FedBridge
 ---

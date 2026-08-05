@@ -8,7 +8,7 @@ pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">CCF-B</span>'
 abstract: >-
   This paper proposes MiniRFANN, a range-filtered approximate nearest neighbor search system for edge devices.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Shuyuan Li
   - Yuheng Liu

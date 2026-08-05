@@ -8,7 +8,7 @@ pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper studies approximate nearest neighbor search over temporal vector data.
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Yuxiang Wang
   - Ziyuan He

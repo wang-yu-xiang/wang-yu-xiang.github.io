@@ -8,7 +8,7 @@ pub_date:       "2025"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper studies timestamp-aware approximate nearest neighbor search over high-dimensional vector data.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Yuxiang Wang
   - Ziyuan He

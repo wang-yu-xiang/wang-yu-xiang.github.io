@@ -8,7 +8,7 @@ pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper proposes GAS, a lightweight framework for filtered search over wide-table vectors.
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Ziyuan He
   - Yuxiang Wang
@@ -21,5 +21,5 @@ authors:
 links:
   Paper:
   PDF:
-  Code:
+  Code: https://github.com/RaspStudio/GAS
 ---

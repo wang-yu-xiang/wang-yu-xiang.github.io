@@ -8,7 +8,7 @@ pub_date:       "2024"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper proposes efficient and privacy-preserving methods for federated trajectory matching.
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/empty_300x200.png
 authors:
   - Yuxiang Wang
   - Yuxiang Zeng
