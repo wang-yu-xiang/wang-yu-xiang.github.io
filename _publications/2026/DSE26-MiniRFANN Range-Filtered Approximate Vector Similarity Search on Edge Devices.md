@@ -18,6 +18,6 @@ authors:
   - Yongxin Tong
 links:
   Paper: https://link.springer.com/article/10.1007/s41019-025-00343-5
-  PDF: /assets/papers/s41019-025-00343-5.pdf
+  PDF: /assets/papers/DSE26-MiniRFANN Range-Filtered Approximate Vector Similarity Search on Edge Devices.pdf
   Code:
 ---

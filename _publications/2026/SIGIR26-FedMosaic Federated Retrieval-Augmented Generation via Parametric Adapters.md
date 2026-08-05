@@ -18,6 +18,7 @@ authors:
   - Yongxin Tong
 links:
   Paper: https://doi.org/10.1145/3805712.3809655
-  PDF:
-  Code:
+  PDF: /assets/papers/SIGIR26-FedMosaic Federated Retrieval-Augmented Generation via Parametric Adapters.pdf
+  Slides: /assets/slides/SIGIR26-slides.pdf
+  Code: https://github.com/lewellin727/FedMosaic
 ---
