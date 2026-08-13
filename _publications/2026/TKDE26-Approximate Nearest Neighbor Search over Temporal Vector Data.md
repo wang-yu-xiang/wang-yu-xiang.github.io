@@ -18,6 +18,6 @@ authors:
   - Yiman Zhong
 links:
   Paper:
-  PDF:
+  PDF: /assets/papers/TKDE26-Approximate Nearest Neighbor Search over Temporal Vector Data.pdf
   Code:
 ---

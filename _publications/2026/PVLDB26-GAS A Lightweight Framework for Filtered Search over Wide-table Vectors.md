@@ -20,6 +20,6 @@ authors:
   - Yongxin Tong
 links:
   Paper:
-  PDF:
+  PDF: /assets/papers/PVLDB26-GAS A Lightweight Framework for Filtered Search over Wide-table Vectors.pdf
   Code: https://github.com/RaspStudio/GAS
 ---
