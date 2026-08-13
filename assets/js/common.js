@@ -34,42 +34,44 @@ $(function () {
         if (!id) return;
 
         var original = $this.attr('data-original-title') || $this.attr('title') || ('WeChat: ' + id);
-        var showCopied = function () {
+        var onCopied = function () {
             $this.attr('data-original-title', 'Copied: ' + id).tooltip('show');
-        };
-        var restore = function () {
-            $this.attr('data-original-title', original).tooltip('hide');
-        };
-        var done = function () {
-            showCopied();
-            setTimeout(restore, 1500);
+            setTimeout(function () {
+                $this.attr('data-original-title', original).tooltip('hide');
+            }, 1500);
         };
 
         if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(id).then(done, function () {
-                fallbackCopyText(id, done);
+            navigator.clipboard.writeText(id).then(onCopied, function () {
+                if (fallbackCopyText(id)) {
+                    onCopied();
+                }
             });
-        } else {
-            fallbackCopyText(id, done);
+        } else if (fallbackCopyText(id)) {
+            onCopied();
         }
     });
 
-    function fallbackCopyText(text, callback) {
-        var $ta = $('<textarea></textarea>').val(text).css({
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            opacity: 0
-        });
-        $('body').append($ta);
-        $ta[0].select();
+    function fallbackCopyText(text) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.top = '0';
+        ta.style.left = '0';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
+        var ok = false;
         try {
-            document.execCommand('copy');
-        } catch (err) {}
-        $ta.remove();
-        if (typeof callback === 'function') {
-            callback();
+            ok = document.execCommand('copy');
+        } catch (err) {
+            ok = false;
         }
+        document.body.removeChild(ta);
+        return ok;
     }
 
     var $grid = $('.grid').masonry({

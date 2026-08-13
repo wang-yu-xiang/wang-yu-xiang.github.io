@@ -56,19 +56,19 @@
                         {% endif %}
                         
                         {% if site.data.profile.wechat_id %}
-                        <a class="px-1 no-break copy-wechat" data-toggle="tooltip" title="WeChat: {{ site.data.profile.wechat_id }} (click to copy)" data-copy-id="{{ site.data.profile.wechat_id }}">
+                        <a href="#" class="px-1 no-break copy-wechat" data-toggle="tooltip" title="WeChat: {{ site.data.profile.wechat_id }} (click to copy)" data-copy-id="{{ site.data.profile.wechat_id }}">
                             <i class="fab fa-weixin"></i>
                         </a>
                         {% endif %}
                         
                         {% if site.data.profile.github %}
-                        <a class="px-1 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
+                        <a class="px-1 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}" data-toggle="tooltip" title="github: https://github.com/{{ site.data.profile.github }}">
                             <i class="fab fa-github"></i>
                         </a>
                         {% endif %}
 
                         {% if site.data.profile.dblp %}
-                        <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.dblp }}" data-toggle="tooltip" title="DBLP">
+                        <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.dblp }}" data-toggle="tooltip" title="dblp: {{ site.data.profile.dblp }}">
                             <i class="ai ai-dblp"></i>
                         </a>
                         {% endif %}
