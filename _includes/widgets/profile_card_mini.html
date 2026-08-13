@@ -50,13 +50,13 @@
                         {%- else -%}
                         {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
                         {%- endif -%}
-                        <a class="px-1 no-break" target="_blank" href="{{ gscholar_url }}">
+                        <a class="px-1 no-break" target="_blank" href="{{ gscholar_url }}" data-toggle="tooltip" title="Google Scholar">
                             <i class="fab fa-google-scholar"></i>
                         </a>
                         {% endif %}
                         
                         {% if site.data.profile.wechat_id %}
-                        <a class="px-1 no-break" data-toggle="tooltip" title="WeChat: {{ site.data.profile.wechat_id }}">
+                        <a class="px-1 no-break copy-wechat" data-toggle="tooltip" title="WeChat: {{ site.data.profile.wechat_id }} (click to copy)" data-copy-id="{{ site.data.profile.wechat_id }}">
                             <i class="fab fa-weixin"></i>
                         </a>
                         {% endif %}
@@ -68,7 +68,7 @@
                         {% endif %}
 
                         {% if site.data.profile.dblp %}
-                        <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.dblp }}">
+                        <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.dblp }}" data-toggle="tooltip" title="DBLP">
                             <i class="ai ai-dblp"></i>
                         </a>
                         {% endif %}

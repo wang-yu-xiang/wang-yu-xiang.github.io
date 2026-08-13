@@ -26,6 +26,52 @@ $(function () {
 
     $('[data-toggle="tooltip"]').tooltip()
 
+    // Click the WeChat icon to copy the WeChat ID to the clipboard
+    $('.copy-wechat').on('click', function (e) {
+        e.preventDefault();
+        var $this = $(this);
+        var id = $this.data('copy-id');
+        if (!id) return;
+
+        var original = $this.attr('data-original-title') || $this.attr('title') || ('WeChat: ' + id);
+        var showCopied = function () {
+            $this.attr('data-original-title', 'Copied: ' + id).tooltip('show');
+        };
+        var restore = function () {
+            $this.attr('data-original-title', original).tooltip('hide');
+        };
+        var done = function () {
+            showCopied();
+            setTimeout(restore, 1500);
+        };
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(id).then(done, function () {
+                fallbackCopyText(id, done);
+            });
+        } else {
+            fallbackCopyText(id, done);
+        }
+    });
+
+    function fallbackCopyText(text, callback) {
+        var $ta = $('<textarea></textarea>').val(text).css({
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            opacity: 0
+        });
+        $('body').append($ta);
+        $ta[0].select();
+        try {
+            document.execCommand('copy');
+        } catch (err) {}
+        $ta.remove();
+        if (typeof callback === 'function') {
+            callback();
+        }
+    }
+
     var $grid = $('.grid').masonry({
         "percentPosition": true,
         "itemSelector": ".grid-item",

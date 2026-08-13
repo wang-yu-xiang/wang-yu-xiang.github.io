@@ -7,7 +7,7 @@ positions:
 
 email: "yuxiangwang@buaa.edu.cn"
 # cv_link: link-to-your-cv-file
-# gscholar: xFmQpf4AAAAJ
+gscholar: xFmQpf4AAAAJ
 github: Roy-buaa
 # wechat_id: your_wechat_id
 wechat_id: wyx2063959711
@@ -22,7 +22,7 @@ dblp: https://dblp.org/pid/62/1637-14.html
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I'm Yuxiang Wang, a PhD student at Beihang University. My research interests include vector databases and federated data management.
+    I'm Yuxiang Wang, a PhD student at Beihang University, supervised by Professor <a href="https://yongxintong.github.io/">Yongxin Tong</a>. My research interests include vector databases and federated data management.
   </p>
 
 portrait_url: /assets/images/mugman.png

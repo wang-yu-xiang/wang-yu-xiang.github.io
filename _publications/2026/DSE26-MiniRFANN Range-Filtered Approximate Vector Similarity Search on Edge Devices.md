@@ -2,7 +2,7 @@
 title:          "MiniRFANN: Range-Filtered Approximate Vector Similarity Search on Edge Devices"
 date:           2026-08-01 00:01:00 +0800
 selected:       true
-order:          11
+order:          12
 pub:            "Data Science and Engineering (DSE)"
 pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">CCF-B</span>'
