@@ -2,7 +2,7 @@
 title:          "FedMosaic: Federated Retrieval-Augmented Generation via Parametric Adapters"
 date:           2026-07-10 00:01:00 +0800
 selected:       true
-order:          8
+order:          10
 pub:            "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"
 pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'

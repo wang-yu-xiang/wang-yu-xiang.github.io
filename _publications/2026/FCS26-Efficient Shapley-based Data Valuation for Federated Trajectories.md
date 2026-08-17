@@ -2,7 +2,7 @@
 title:          "Efficient Shapley-based Data Valuation for Federated Trajectories"
 date:           2026-08-01 00:01:00 +0800
 selected:       true
-order:          11
+order:          8
 pub:            "Frontiers of Computer Science (FCS)"
 pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">CCF-B</span>'
