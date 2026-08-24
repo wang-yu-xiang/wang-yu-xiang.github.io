@@ -19,5 +19,6 @@ authors:
 links:
   Paper:
   PDF: /assets/papers/PVLDB26-FedBridge A Federated Query Engine over Embedding-Heterogeneous Vector Databases.pdf
+  Poster: /assets/posters/PVLDB26-poster.pdf
   Code: https://github.com/Roy-buaa/FedBridge
 ---

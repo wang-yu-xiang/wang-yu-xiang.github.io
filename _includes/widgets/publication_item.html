@@ -17,6 +17,9 @@
                 {% if item.links.Slides %}
                 <a target="_blank" href="{{ item.links.Slides }}">[Slides]</a>
                 {% endif %}
+                {% if item.links.Poster %}
+                <a target="_blank" href="{{ item.links.Poster }}">[Poster]</a>
+                {% endif %}
                 {% if item.links.Code %}
                 <a target="_blank" href="{{ item.links.Code }}">[Code]</a>
                 {% endif %}
@@ -45,6 +48,9 @@
                     {% endif %}
                     {% if item.links.Slides %}
                     <a target="_blank" href="{{ item.links.Slides }}">[Slides]</a>
+                    {% endif %}
+                    {% if item.links.Poster %}
+                    <a target="_blank" href="{{ item.links.Poster }}">[Poster]</a>
                     {% endif %}
                     {% if item.links.Code %}
                     <a target="_blank" href="{{ item.links.Code }}">[Code]</a>
