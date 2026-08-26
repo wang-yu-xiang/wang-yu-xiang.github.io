@@ -21,6 +21,6 @@ authors:
 links:
   Paper:
   PDF: /assets/papers/PVLDB26-GAS A Lightweight Framework for Filtered Search over Wide-table Vectors.pdf
-  Slides: /assets/slides/GAS_Slides_0819.pdf
+  Slides: /assets/slides/PVLDB26-slides.pdf
   Code: https://github.com/RaspStudio/GAS
 ---
