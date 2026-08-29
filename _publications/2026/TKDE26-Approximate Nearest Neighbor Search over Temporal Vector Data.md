@@ -17,7 +17,7 @@ authors:
   - Zijie Ma
   - Yiman Zhong
 links:
-  Paper:
+  Paper: https://ieeexplore.ieee.org/document/11647349
   PDF: /assets/papers/TKDE26-Approximate Nearest Neighbor Search over Temporal Vector Data.pdf
   Code:
 ---
