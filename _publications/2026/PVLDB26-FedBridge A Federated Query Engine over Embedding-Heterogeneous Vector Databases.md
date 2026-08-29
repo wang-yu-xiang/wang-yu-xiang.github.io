@@ -17,7 +17,7 @@ authors:
   - Xinyu Zhao
   - Yongxin Tong
 links:
-  Paper:
+  Paper: https://vldb.org/pvldb/volumes/19/paper/FedBridge%3A%20A%20Federated%20Query%20Engine%20over%20Embedding-Heterogeneous%20Vector%20Databases
   PDF: /assets/papers/PVLDB26-FedBridge A Federated Query Engine over Embedding-Heterogeneous Vector Databases.pdf
   Poster: /assets/posters/PVLDB26-poster.pdf
   Code: https://github.com/Roy-buaa/FedBridge

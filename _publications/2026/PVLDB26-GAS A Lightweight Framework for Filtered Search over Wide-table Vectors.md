@@ -19,7 +19,7 @@ authors:
   - Yu Li
   - Yongxin Tong
 links:
-  Paper:
+  Paper: https://vldb.org/pvldb/volumes/19/paper/GAS%3A%20A%20Lightweight%20Framework%20for%20Filtered%20Search%20over%20Wide-table%20Vectors
   PDF: /assets/papers/PVLDB26-GAS A Lightweight Framework for Filtered Search over Wide-table Vectors.pdf
   Slides: /assets/slides/PVLDB26-slides.pdf
   Code: https://github.com/RaspStudio/GAS
