@@ -19,6 +19,6 @@ authors:
   - Qiang Yang
 links:
   Paper:
-  PDF:
-  Code:
+  PDF: /assets/papers/ICDM26-FedWeave Federated Parametric RAG for Multi-Evidence Reasoning.pdf
+  Code: https://github.com/lewellin727/FedWeave
 ---

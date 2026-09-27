@@ -4,7 +4,7 @@ date:           2026-03-15 00:01:00 +0800
 selected:       true
 order:          0
 pub:            "Proceedings of the VLDB Endowment (PVLDB)"
-pub_date:       "2027"
+pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">CCF-A</span>'
 abstract: >-
   This paper presents DiskVecLab, a deployment-realistic evaluation framework for disk-based vector search systems.
@@ -20,6 +20,6 @@ authors:
   - Yu Li
 links:
   Paper:
-  PDF: /assets/papers/PVLDB27-DiskVecLab A Deployment-Realistic Evaluation Framework for Disk-Based Vector Search.pdf
+  PDF: /assets/papers/PVLDB26-DiskVecLab A Deployment-Realistic Evaluation Framework for Disk-Based Vector Search.pdf
   Code: https://github.com/Roy-buaa/DiskVecLab-Artifacts
 ---
