@@ -20,5 +20,7 @@ authors:
 links:
   Paper:
   PDF: /assets/papers/ICDM26-FedWeave Federated Parametric RAG for Multi-Evidence Reasoning.pdf
+  Poster: /assets/posters/ICDM26-poster.pdf
+  Slides: /assets/slides/ICDM26-slides.pdf
   Code: https://github.com/lewellin727/FedWeave
 ---
